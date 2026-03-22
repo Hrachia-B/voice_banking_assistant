@@ -1,0 +1,11 @@
+beautifulsoup4==4.13.4
+faster-whisper>=1.2,<2.0
+google-genai>=1.0,<2.0
+gradio>=5.0,<6.0
+livekit-agents[silero]~=1.5
+pypdf==5.4.0
+PyYAML==6.0.2
+pytest==8.4.1
+requests==2.32.4
+scikit-learn==1.6.1
+soundfile>=0.13,<1.0

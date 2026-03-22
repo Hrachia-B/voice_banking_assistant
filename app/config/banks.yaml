@@ -1,0 +1,159 @@
+version: 1
+banks:
+  - bank_name: Unibank
+    bank_code: unibank
+    base_url: https://www.unibank.am
+    allowed_domains:
+      - www.unibank.am
+      - unibank.am
+    topics:
+      credits:
+        document_urls:
+          - https://www.unibank.am/hy/service/consumer.php
+          - https://www.unibank.am/hy/service/consumer/fol/
+          - https://www.unibank.am/hy/service/consumer/nonam/
+          - https://www.unibank.am/hy/service/consumer/non-cash/
+          - https://www.unibank.am/hy/service/consumer/gold/
+          - https://www.unibank.am/hy/service/consumer/fkan/
+          - https://www.unibank.am/hy/service/consumer/depg/
+          - https://www.unibank.am/hy/service/consumer/uquick/
+          - https://www.unibank.am/hy/service/consumer/forstudents/
+          - https://www.unibank.am/hy/service/consumer/u-rego/
+          - https://www.unibank.am/hy/service/consumer/loantime/
+          - https://www.unibank.am/hy/about/anuitet.pdf
+          - https://www.unibank.am/hy/about/pastaci4.pdf
+          - https://www.unibank.am/hy/service/consumer.php
+          - https://www.unibank.am/hy/service/consumer/099plus/
+          - https://www.unibank.am/hy/service/consumer/0plus/
+          - https://www.unibank.am/hy/service/consumer/-u-aparik-18-5-/
+          - https://www.unibank.am/hy/service/consumer/u-aparik/
+          - https://www.unibank.am/hy/service/consumer/-artonyal-aparik-18/
+          - https://www.unibank.am/hy/service/consumer/-artonyal-aparik-18/
+          - https://www.unibank.am/hy/service/consumer/artonyal-aparik/
+        follow_links: false
+        renderer: requests
+      deposits:
+        document_urls:
+          - https://www.unibank.am/hy/deposit/
+          - https://www.unibank.am/hy/deposit/5979/
+          - https://www.unibank.am/hy/deposit/8163/
+          - https://www.unibank.am/hy/deposit/5978/
+          - https://www.unibank.am/hy/service/deposits/1.pdf
+        follow_links: false
+        renderer: requests
+      branches:
+        document_urls:
+          - https://www.unibank.am/hy/branch/
+        follow_links: false
+        renderer: requests
+
+  - bank_name: Armeconombank
+    bank_code: aeb
+    base_url: https://www.aeb.am
+    allowed_domains:
+      - www.aeb.am
+      - aeb.am
+    topics:
+      credits:
+        document_urls:
+          - https://www.aeb.am/hy/individual/loans
+          - https://www.aeb.am/hy/individual/loans/armat
+          - https://www.aeb.am/hy/individual/loans/loan-without-a-pledge
+          - https://www.aeb.am/hy/individual/loans/student-loan-from-the-banks-resources
+          - https://www.aeb.am/hy/individual/loans/student-loan-state-program
+          - https://www.aeb.am/hy/individual/loans/online-loan
+          - https://www.aeb.am/hy/individual/loans/guru-guru-travel-credit-line
+          - https://www.aeb.am/hy/individual/loans/agro
+          - https://www.aeb.am/hy/individual/loans/income-ground
+          - https://www.aeb.am/hy/individual/loans/salary-credit-line
+          - https://www.aeb.am/hy/individual/loans/armecs-standard-credit-line
+          - https://www.aeb.am/hy/individual/loans/mastercard-world-qartervov-varkayin-gits
+          - https://www.aeb.am/hy/individual/loans/loans-with-fund-collateration
+          - https://www.aeb.am/hy/individual/loans/fund-collateration
+          - https://www.aeb.am/hy/individual/loans/cash-collateral-aeb-online
+          - https://www.aeb.am/hy/individual/loans/consumer-loan-with-real-estate-collateral
+          - https://www.aeb.am/hy/individual/loans/loan-with-gold-item-collateral
+          - https://www.aeb.am/hy/individual/loans/agricultural-with-gold-collateral
+          - https://www.aeb.am/hy/individual/loans/car-loan-primary-market
+          - https://www.aeb.am/hy/individual/loans/car-loan-secondary-market
+          - https://www.aeb.am/hy/individual/loans/gold-bullions-on-credit
+          - https://www.aeb.am/hy/individual/loans/installment-loan
+          - https://www.aeb.am/hy/individual/loans/installment-loan-subsidized-solar-loan
+          - https://www.aeb.am/hy/individual/loans/housing-for-young-families
+          - https://www.aeb.am/hy/individual/loans/affordable-housing-to-servicemen
+          - https://www.aeb.am/hy/individual/loans/refinanced-mortgage-loan
+          - https://www.aeb.am/hy/individual/loans/mortgage-loan-acquisition
+          - https://www.aeb.am/hy/individual/loans/ea-bnakaranayin-mikrvovarker
+          - https://www.aeb.am/hy/individual/loans/mortgage-loan-renovation-construction
+          - https://www.aeb.am/hy/individual/loans/mortgage-loans-provided-within-the-framework-of-own-resources-of-the-bank
+          - https://www.aeb.am/hy/individual/loans/housing-for-forcibly-displaced-families-from-separate-regions-of-nkh
+          - https://www.aeb.am/hy/individual/loans/arevtrayin-ev-gyuxatntesakan-lizing
+        follow_links: false
+        renderer: requests
+      deposits:
+        document_urls:
+          - https://www.aeb.am/hy/individual/deposits
+          - https://www.aeb.am/hy/individual/deposit/classic-plus
+          - https://www.aeb.am/hy/individual/deposit/simple-deposit
+          - https://www.aeb.am/hy/individual/deposit/classic-deposit
+          - https://www.aeb.am/hy/individual/deposit/beneficial-deposit
+          - https://www.aeb.am/hy/individual/deposit/child-deposit
+        follow_links: false
+        renderer: requests
+      branches:
+        document_urls:
+          - https://www.aeb.am/hy/branch-service-network
+        follow_links: false
+        renderer: requests
+
+  - bank_name: VTB Bank Armenia
+    bank_code: vtb
+    base_url: https://vtb.am
+    allowed_domains:
+      - vtb.am
+      - www.vtb.am
+    topics:
+      credits:
+        document_urls:
+          - https://vtb.am/am/credits#all
+          - https://vtb.am/am/credits/consumer-loan
+          - https://vtb.am/am/credits/online
+          - https://vtb.am/am/credits/installments-loan
+          - https://vtb.am/am/credits/student-loan
+          - https://vtb.am/am/credits/gold-secured-loan
+          - https://vtb.am/am/credits/real-estate-loan
+          - https://vtb.am/am/credits/deposit-pledge
+          - https://vtb.am/am/credits/deposit-pledge-credit-card
+          - https://vtb.am/am/credits/credit-card
+          - https://vtb.am/am/credits/overdraft
+          - https://vtb.am/am/credits/consumer-loan-refinance
+          - https://vtb.am/am/credits/mortgage-refinance
+          - https://vtb.am/am/credits/car-loan-refinance
+          - https://vtb.am/am/credits/mortgage
+          - https://vtb.am/am/credits/car-loan-primary-market
+          - https://vtb.am/am/credits/car-loan-secondary-market
+          - https://vtb.am/am/business/loans/new-partner
+        follow_links: false
+        renderer: requests
+      deposits:
+        document_urls:
+          - https://vtb.am/am/deposit#all
+          - https://vtb.am/am/deposit/stable
+          - https://vtb.am/am/deposit/limitless
+          - https://vtb.am/am/deposit/growing
+          - https://vtb.am/am/deposit/personal
+          - https://vtb.am/am/deposit/childhood
+          - https://vtb.am/am/deposit/gold
+          - https://vtb.am/am/deposit/bank-account-1
+          - https://vtb.am/am/deposit/safe-1
+          - https://vtb.am/am/deposit/social-package-1
+          - https://vtb.am/am/deposit/state-support-1
+          - https://vtb.am/am/deposit/social-security-1
+          - https://vtb.am/am/deposit/accumulative-pension-system-1
+        follow_links: false
+        renderer: requests
+      branches:
+        document_urls:
+          - https://vtb.am/am/map
+        follow_links: false
+        renderer: requests
