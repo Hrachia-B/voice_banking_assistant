@@ -8,10 +8,6 @@ Production-minded Armenian bank support assistant focused on three allowed topic
 
 The repository includes the full path from scraping official bank pages to grounded Armenian text QA and voice interaction.
 
-## Deliverables
-
-- GitHub-ready project repository
-- Documentation with architecture, design decisions, setup, and run instructions
 
 ## What This Project Does
 
