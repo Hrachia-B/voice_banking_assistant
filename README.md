@@ -439,17 +439,6 @@ Current test coverage includes:
 - Local STT quality depends on microphone/audio quality.
 - Generic multi-bank questions may require clarification before the system answers.
 
-## How To Push To GitHub
-
-The folder is now initialized locally as a git repository, but there is still no GitHub remote configured.
-
-If you want to publish it manually:
-
-```bash
-git branch -M main
-git remote add origin <your-github-repo-url>
-git push -u origin main
-```
 
 ## Sources
 
